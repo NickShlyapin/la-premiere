@@ -1,0 +1,212 @@
+@media (min-width: 900px) {
+  .footer {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 50;
+    box-sizing: border-box;
+    position: relative;
+    .f2 {
+      display: none;
+    }
+    .f3 {
+      display: none;
+    }
+    .f1 {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+      .copyright {
+        font-family: "Merriweather-Light";
+        font-size: 12px;
+        font-weight: 300;
+        color: rgb(51, 51, 51, 0.6);
+      }
+      .contactInfo {
+        display: flex;
+        align-items: baseline;
+        gap: 25px;
+        .address {
+          font-family: "Merriweather-Light";
+          font-size: 12px;
+          font-weight: 300;
+          color: #2b5daa;
+          text-decoration: none;
+        }
+        a {
+          font-family: "Merriweather-Light";
+          font-size: 12px;
+          font-weight: 300;
+          color: #2b5daa;
+          text-decoration: none;
+        }
+      }
+      .developer {
+        font-family: "Merriweather-Light";
+        display: flex;
+        align-items: baseline;
+        gap: 5px;
+        text-decoration: none;
+        color: #333333;
+        font-size: 12px;
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+@media (min-width: 550px) and (max-width: 899px) {
+  .footer {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 50;
+    box-sizing: border-box;
+    position: relative;
+    .f1 {
+      display: none;
+    }
+    .f3 {
+      display: none;
+    }
+    .f2 {
+      width: 100%;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      padding: 0 20px;
+      .leftS {
+        .copyright {
+          font-family: "Merriweather-Light";
+          font-size: 12px;
+          font-weight: 300;
+          color: rgb(51, 51, 51, 0.6);
+          margin: 0;
+          padding: 0;
+        }
+        .developer {
+          font-family: "Merriweather-Light";
+          display: flex;
+          align-items: baseline;
+          gap: 5px;
+          text-decoration: none;
+          color: #333333;
+          font-size: 12px;
+          font-weight: 300;
+          margin: 0;
+          padding: 0;
+        }
+      }
+      .rightS {
+        .contactInfo {
+          display: flex;
+          align-items: baseline;
+          justify-content: center;
+          flex-direction: column;
+          .address {
+            font-family: "Merriweather-Light";
+            font-size: 12px;
+            font-weight: 300;
+            color: #2b5daa;
+            text-decoration: none;
+          }
+          a {
+            font-family: "Merriweather-Light";
+            font-size: 12px;
+            font-weight: 300;
+            color: #2b5daa;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 549px) {
+  .footer {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 50;
+    box-sizing: border-box;
+    position: relative;
+    .f1 {
+      display: none;
+    }
+    .f2 {
+      display: none;
+    }
+    .f3 {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 0 20px;
+      .leftS {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .copyright {
+          font-family: "Merriweather-Light";
+          font-size: 12px;
+          font-weight: 300;
+          color: rgb(51, 51, 51, 0.6);
+          margin: 0;
+          padding: 0;
+        }
+        .developer {
+          font-family: "Merriweather-Light";
+          display: flex;
+          align-items: baseline;
+          gap: 5px;
+          text-decoration: none;
+          color: #333333;
+          font-size: 12px;
+          font-weight: 300;
+          margin: 0;
+          padding: 0;
+        }
+      }
+      .rightS {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 10px;
+        .contactInfo {
+          display: flex;
+          align-items: baseline;
+          justify-content: center;
+          flex-direction: column;
+          .address {
+            font-family: "Merriweather-Light";
+            font-size: 12px;
+            font-weight: 300;
+            color: #2b5daa;
+            text-decoration: none;
+          }
+          a {
+            font-family: "Merriweather-Light";
+            font-size: 12px;
+            font-weight: 300;
+            color: #2b5daa;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

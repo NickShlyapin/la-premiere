@@ -1,0 +1,68 @@
+.mymap {
+  .pl {
+    display: none;
+  }
+  width: 100%;
+  position: relative;
+  padding: 0;
+  //border-top: 2px solid #2b5daa;
+  //border-bottom: 2px solid #2b5daa;
+  .cardWrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    max-width: 1240px;
+    z-index: 1;
+    padding: 50px 0px 0px 40px;
+    .mapInfoWrapper {
+      max-width: 1240px;
+      position: absolute;
+      .mapInfo {
+        background-color: #fff;
+        border-radius: 12px;
+        box-sizing: border-box;
+        z-index: 10;
+        padding: 40px 20px;
+        h1 {
+          font-family: "Merriweather-Bold";
+          color: #2b5daa;
+          font-size: 29px;
+          line-height: 115.52%;
+          padding: 0;
+          margin: 0;
+        }
+        h2 {
+          font-family: "Merriweather-Regular";
+          color: #333333;
+          font-size: 16px;
+          line-height: 24px;
+          padding: 0;
+          margin: 0;
+          margin-top: 10px;
+        }
+        a {
+          font-family: "Merriweather-Bold";
+          color: #333333;
+          font-size: 14px;
+          line-height: 24px;
+          padding: 0;
+          margin: 0;
+          cursor: pointer;
+          text-decoration: none;
+          margin-top: 10px;
+        }
+        h3 {
+          font-family: "Merriweather-Regular";
+          color: #333333;
+          font-size: 14px;
+          line-height: 24px;
+          padding: 0;
+          margin: 0;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}

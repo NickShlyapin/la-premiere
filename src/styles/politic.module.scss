@@ -1,0 +1,60 @@
+.politic {
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  max-width: 740px;
+  margin: 0 auto;
+  .wrapper {
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 100px 40px;
+    position: relative;
+    box-sizing: border-box;
+    a {
+      font-family: "Merriweather-Regular";
+      color: #2b5daa;
+      font-size: 16px;
+      line-height: 115.52%;
+      letter-spacing: 0.09em;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    h1 {
+      font-family: "Merriweather-Bold";
+      color: #2b5daa;
+      font-size: 29px;
+      line-height: 115.52%;
+      letter-spacing: 0.145em;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 70px;
+      @media (max-width: 549px) {
+        font-family: "Merriweather-Bold";
+        color: #2b5daa;
+        font-size: 16px;
+        line-height: 115.52%;
+        letter-spacing: 0.145em;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 70px;
+      }
+    }
+    h2 {
+      font-family: "Merriweather-Bold";
+      color: #2b5daa;
+      font-size: 14px;
+      line-height: 115.52%;
+      letter-spacing: 0.09em;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    p {
+      font-family: "Merriweather-Regular";
+      color: #2b5daa;
+      font-size: 16px;
+      line-height: 157.52%;
+      font-weight: 400;
+      color: #333333;
+    }
+  }
+}
